@@ -27,6 +27,7 @@ namespace SportsStore.Controllers
             return RedirectToAction("Index", new { returnUrl });
         }
 
+
         public RedirectToActionResult RemoveFromCart(int productId,
         string returnUrl)
         {
