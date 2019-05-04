@@ -56,6 +56,7 @@ namespace SportsStore.Controllers
             await signInManager.SignOutAsync();
             return Redirect(returnUrl);
         }
+
     }
 }
 
